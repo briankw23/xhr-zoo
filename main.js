@@ -17,8 +17,14 @@ function Xhrfail(){
 const domString = (animalArray) => {
     let domString="";
  for (let i = 0; i < animalArray.length; i++) {
-      domString += `<h1>${animalArray[i].names}</h1>`
-     
+        domString += `<div class="animal">`;
+      domString += `<h1>${animalArray[i].names}</h1>`;
+      domString += `<h3>${animalArray[i].number}</h3>`;
+      domString += `<img  class="animal-img" src='${animalArray[i].imageUrl}'>`;
+      domString += `<div class="button-container">`;
+      domString += `<button>Escaped</button>`
+      domString += `</div>`;
+      domString += `</div>`;
  }
  printToDom(domString, "zoo");
 };
