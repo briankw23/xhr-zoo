@@ -1,0 +1,109 @@
+{
+    "animals":[
+        {
+            "names":"HELLBENDER",
+            "type":"Amphibian",
+            "number":45,
+            "isCarnivor":true,
+            "imageUrl":"https://www.speakcdn.com/assets/2147/12_hellbender-sm.jpg"
+        },
+        {
+            "names":"SURINAM TOAD",
+            "type":"Amphibian",
+            "number":66,
+            "isCarnivor":true,
+            "imageUrl":"https://www.speakcdn.com/assets/2147/12_surinam-toad-web.jpg"
+        },
+        {
+            "names":"AXOLOTL",
+            "type":"Amphibian",
+            "number":23,
+            "isCarnivor":true,
+            "imageUrl":"https://www.speakcdn.com/assets/2147/12_axolotl-web.jpg"
+        },
+        {
+            "names":"ALPACA",
+            "type":"Mammal",
+            "number":3,
+            "isCarnivor":false,
+            "imageUrl":"https://www.speakcdn.com/assets/2147/12_alpaca1.jpg"
+        },
+        {
+            "names":"GOATS",
+            "type":"Mammal",
+            "number":57,
+            "isCarnivor":false,
+            "imageUrl":"https://www.speakcdn.com/assets/2147/12_nubian_goats_-_amiee_stubbs.jpg"
+        },
+        {
+            "names":"SOUTHERN WHITE RHINOCEROS",
+            "type":"Mammal",
+            "number":99,
+            "isCarnivor":false,
+            "imageUrl":"https://www.speakcdn.com/assets/2147/12_white_rhino_-_2017_-_brandon_jackson.jpg"
+        },
+        {
+            "names":"YELLOW BLOTCHED MAP TURTLE",
+            "type":"Reptiles",
+            "number":77,
+            "isCarnivor":true,
+            "imageUrl":"https://www.speakcdn.com/assets/2147/3-9-15-map-turtle---amiee-stubbs.jpg"
+        },
+        {
+            "names":"RHINOCEROS IGUANA",
+            "type":"Reptiles",
+            "number":35,
+            "isCarnivor":false,
+            "imageUrl":"https://www.speakcdn.com/assets/2147/12_rhino_iguana.jpg"
+        },
+        {
+            "names":"ALLIGATOR SNAPPING TURTLE",
+            "type":"Reptiles",
+            "number":70,
+            "isCarnivor":true,
+            "imageUrl":"https://www.speakcdn.com/assets/2147/12_alligator-snapping-turtle.jpg"
+        },
+        {
+            "names":"COMMON BARN OWL",
+            "type":"Birds",
+            "number":34,
+            "isCarnivor":true,
+            "imageUrl":"https://www.speakcdn.com/assets/2147/12_barnowl1-sq.jpg"
+        },
+        {
+            "names":"SNOWY OWL",
+            "type":"Birds",
+            "number":90,
+            "isCarnivor":true,
+            "imageUrl":"https://www.speakcdn.com/assets/2147/12_snowyowl1.jpg"
+        },
+        {
+            "names":"SOUTHERN CRESTED SCREAMER",
+            "type":"Birds",
+            "number":67,
+            "isCarnivor":false,
+            "imageUrl":"https://www.speakcdn.com/assets/2147/12_crestedscreamer1-web.jpg"
+        },
+        {
+            "names":"BLACK AROWANA",
+            "type":"Fish",
+            "number":345,
+            "isCarnivor":true,
+            "imageUrl":"https://www.speakcdn.com/assets/2147/12_black-arowana-web.jpg"
+        },
+        {
+            "names":"WHITE-BLOTCHED RIVER STINGRAY",
+            "type":"Fish",
+            "number":789,
+            "isCarnivor":true,
+            "imageUrl":"https://www.speakcdn.com/assets/2147/12_white-blotched-stingray.jpg"
+        },
+        {
+            "names":"LINED SEAHORSE",
+            "type":"Fish",
+            "number":456,
+            "isCarnivor":true,
+            "imageUrl":"https://www.speakcdn.com/assets/2147/12_lined-seahorse.jpg"
+        }
+    ]
+}
