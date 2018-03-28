@@ -18,9 +18,10 @@ function Xhrfail(){
 const domString = (animalArray) => {
     let domString="";
  for (let i = 0; i < animalArray.length; i++) {
-    if(animalArray.isCarnivor){
-        domString += `<div class="animal carnivor">`;
-    } else{
+    console.log(animalArray[i].isCarnivor);
+    if (animalArray[i].isCarnivor){
+        domString += `<div class="animal carnivore">`;
+    } else {
         domString += `<div class="animal vegetable">`;
     }
     domString += `<h1>${animalArray[i].names}</h1>`;
@@ -44,8 +45,20 @@ const animalEscaped = () =>{
     showVegetables();
 };
 
-const showCarnivores = () => {};
-const showVegetables = () => {};
+const showCarnivores = () => {
+    const carnivores = document.getElementsByClassName("carnivore");
+    for (let j = 0; j < carnivores.length; j++) {
+        carnivores[j].children[3].innerHTML = "";
+        carnivores[j].classList.add('red');
+    }
+};
+const showVegetables = () => {
+    const vegetable = document.getElementsByClassName("vegetable");
+    for (let k = 0; k < vegetable.length; k++) {
+        vegetable[k].children[3].innerHTML = `<button>EAT ME!!!</button>`;
+        vegetable[k].classList.add('green');
+    }
+};
 
 const startApplication = () => {
     let myRequest = new XMLHttpRequest();
@@ -57,3 +70,4 @@ const startApplication = () => {
 };
 console.log("start of JS", Date.now());
 startApplication();
+  
